@@ -1,0 +1,13 @@
+[package]
+name = "oruuid"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "oruuid"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = "0.21.1"
+uuid = { version = "1.8.0", features = ["v1", "v4", "v7"] }
