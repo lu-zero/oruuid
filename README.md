@@ -29,5 +29,6 @@ $ maturin develop
 You may use [pytest](https://pypi.org/project/pytest/):
 ``` sh
 $ maturin develop
+$ pip install -r rest-requirements.txt
 $ pytest
 ```
